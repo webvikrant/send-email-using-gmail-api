@@ -49,11 +49,11 @@ public class MyUI extends UI {
 			// send email
 			try {
 				GmailService gmailService = new GmailServiceImpl(GoogleNetHttpTransport.newTrustedTransport());
-				GmailCredentials gmailCredentials = new GmailCredentials("vikrant.shishaudia@gmail.com",
-						"349386895655-a0p8d3d8dptrqdmrj1u8b8a8t9hjdfpd.apps.googleusercontent.com",
-						"sIhe5yIv9Qq0TkcAXOUZ87mD",
-						"ya29.GlssBo0yK-IHQzmrEUcU2qgjAaVBcC67uRWP4iGHOIzZNG2hONXOHpPrQ96CD341d6AEqS-YBiL1wfi2cSXXs_CPe9N7NDRxbcDmoNDUFjc2ZjAZOQY-1RbvSqkN",
-						"1/WtiAsDF5Dx7wnQ-XWkavOiSZA2fmWOpYVI4etT5AIgk");
+				GmailCredentials gmailCredentials = new GmailCredentials("your-email@gmail.com",
+						"349******************.apps.googleusercontent.com",
+						"sIh**************D",
+						"ya29.G********************************************************************************vSqkN",
+						"1/Wti************************************************************");
 
 				gmailService.setGmailCredentials(gmailCredentials);
 
